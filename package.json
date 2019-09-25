@@ -1,0 +1,31 @@
+{
+  "name": "fastify-login-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TABmk/fastify-login-template.git"
+  },
+  "keywords": [
+    "fastify",
+    "oauth",
+    "session"
+  ],
+  "author": "TAB_mk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TABmk/fastify-login-template/issues"
+  },
+  "homepage": "https://github.com/TABmk/fastify-login-template#readme",
+  "dependencies": {
+    "fastify": "^2.8.0",
+    "fastify-autoload": "^1.0.0",
+    "fastify-cookie": "^3.1.0",
+    "fastify-oauth2": "^2.3.0",
+    "fastify-session": "^3.0.0"
+  }
+}
