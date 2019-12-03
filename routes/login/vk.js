@@ -14,7 +14,7 @@ module.exports = function (fastify, opts, done) {
         id: process.env[`${name}_APP_ID`],
         secret: process.env[`${name}_APP_SECRET`]
       },
-      auth: fastify.auth_config[name]
+      auth: fastify.oauth.VKONTAKTE_CONFIGURATION
     },
     startRedirectPath: `/login/${name}`,
     callbackUri: `http://localhost:${process.env.PORT}/login/callback`
